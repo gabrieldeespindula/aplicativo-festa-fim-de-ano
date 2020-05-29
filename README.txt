@@ -1,0 +1,1 @@
+Neste repositório criarei um app de uma festa de fim de ano, conforme o projeto do curso: https://www.udemy.com/course/desenvolvedor-android-iniciante/
