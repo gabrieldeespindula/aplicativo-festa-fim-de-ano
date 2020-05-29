@@ -5,4 +5,7 @@
     <color name="colorGrey">#808080</color>
     <color name="colorBlue">#4169E3</color>
     <color name="colorGreen">#39FF14</color>
+    <color name="colorPrimary">#E00C485C</color>
+    <color name="colorPrimaryDark">#E00C485C</color>
+    <color name="colorAccent">#E00C485C</color>
 </resources>
