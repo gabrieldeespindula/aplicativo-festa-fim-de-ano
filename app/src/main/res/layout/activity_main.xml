@@ -7,12 +7,51 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@drawable/background"
-    android:padding="8dp">
+    android:padding="15dp">
 
     <TextView
+        android:id="@+id/text_today"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/data_de_hoje"
+        android:textSize="25sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/text_today"
+        android:background="@color/colorGrey"/>
+
+    <TextView
+        android:id="@+id/text_label_days_left"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="@string/dias_restantes_para_o_fim_do_ano"
+        android:textSize="17sp"/>
 
+    <TextView
+        android:id="@+id/text_days_to_the_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:layout_below="@+id/text_label_days_left"
+        android:layout_centerHorizontal="true"
+        android:text="365 dias"
+        android:textColor="@color/colorBlue"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/button_yes_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorGreen"
+        android:text="@string/sim_nao_nao_confirmado"
+        android:textColor="@color/colorWhite"
+        android:layout_marginVertical="15dp"/>
 
 </RelativeLayout>
