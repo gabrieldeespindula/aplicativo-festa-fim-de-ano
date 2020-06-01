@@ -7,14 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     private ViewHolder mViewHolder = new ViewHolder();
-    private static SimpleDateFormat SIMPLE_DATE_FORMAT = new SimpleDateFormat("dd/MM/yyyy");
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,8 +21,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.mViewHolder.buttonYesNo = findViewById(R.id.button_yes_no);
 
         this.mViewHolder.buttonYesNo.setOnClickListener(this);
-
-        this.mViewHolder.textToday.setText(SIMPLE_DATE_FORMAT.format(Calendar.getInstance().getTime()));
 
     }
 
