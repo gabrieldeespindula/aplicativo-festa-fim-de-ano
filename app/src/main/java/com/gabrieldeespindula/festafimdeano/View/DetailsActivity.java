@@ -1,8 +1,10 @@
-package com.gabrieldeespindula.festafimdeano;
+package com.gabrieldeespindula.festafimdeano.View;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.CheckBox;
+
+import com.gabrieldeespindula.festafimdeano.R;
 
 public class DetailsActivity extends AppCompatActivity {
 

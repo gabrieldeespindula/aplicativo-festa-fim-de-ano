@@ -7,7 +7,7 @@
     android:background="@drawable/background"
     android:orientation="vertical"
     android:padding="15dp"
-    tools:context=".View.DetailsActivity">
+    tools:context=".DetailsActivity">
 
     <TextView
         android:layout_width="wrap_content"

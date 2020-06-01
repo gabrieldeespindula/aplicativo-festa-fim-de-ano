@@ -1,4 +1,4 @@
-package com.gabrieldeespindula.festafimdeano;
+package com.gabrieldeespindula.festafimdeano.View;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.gabrieldeespindula.festafimdeano.R;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
