@@ -5,10 +5,10 @@ import android.content.SharedPreferences;
 
 public class SecurityPreferences {
 
-    private SharedPreferences mSharedPreferences;
+    private final SharedPreferences mSharedPreferences;
 
-    public SecurityPreferences(Context mContext){
-        this.mSharedPreferences = mContext.getSharedPreferences("FestaFimDeAno", Context.MODE_PRIVATE);
+    public SecurityPreferences(Context context){
+        this.mSharedPreferences = context.getSharedPreferences("FestaFimDeAno", Context.MODE_PRIVATE);
     }
 
     public void storeString(String key, String value){
