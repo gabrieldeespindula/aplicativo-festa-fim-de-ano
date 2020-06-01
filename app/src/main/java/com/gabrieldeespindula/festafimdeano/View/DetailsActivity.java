@@ -18,7 +18,7 @@ public class DetailsActivity extends AppCompatActivity {
         this.mViewHolder.checkParticipate = findViewById(R.id.check_box_participate);
     }
 
-    private class ViewHolder {
+    private static class ViewHolder {
         CheckBox checkParticipate;
     }
 }
